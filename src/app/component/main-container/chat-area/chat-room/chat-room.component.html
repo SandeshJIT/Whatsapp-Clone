@@ -1,0 +1,22 @@
+<section class="chat__room">
+    <ng-container>
+        <div 
+        [ngClass]="
+            'chat__room__messages__owner:true' 
+        "
+        class="chat__room__messages"
+        
+        
+        
+        > 
+        <!--isUser.uid == m.user_id -->
+
+            <span class="chat__room__messages__name">Prathana </span>
+            <span class="chat__room__messages__text">Hey</span>
+            <span class="chat__room__messages__timestamp">10:50 PM</span>
+        </div>
+    </ng-container>
+    <ng-template>
+        <h1>No messages found!</h1>
+    </ng-template>
+</section>

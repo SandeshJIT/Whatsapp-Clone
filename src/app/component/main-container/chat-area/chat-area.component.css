@@ -1,0 +1,124 @@
+
+button mat-icon{
+    color: grey;
+}
+.chat__header{
+    width: 960px;
+    height: 6vh;
+    display: flex;
+    border-bottom: 1px solid rgb(219, 219, 219);
+   
+}
+.chat__header img{
+    position: absolute;
+    width: 2%;
+    height: 50%;
+    display: flex;
+    padding: 2%;
+    margin-right: 20%;
+    margin-left: -1%;
+    margin-top: -26.2vh;
+    border-radius: 50%;
+   
+}
+.chat__header p{
+    position: absolute;
+    display:flex;
+    margin-top: 1%;
+    margin-left: 4%;
+    /* font-weight: bold; */
+    font-size: large;
+    
+}
+.header__icons{
+    margin-left: 85%;
+    padding: 2%;
+    width: 20vh;
+    color: #919191
+}
+.header__icons button{
+  margin-right: 10%;
+  border : 0;
+  height: 160%;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.header__icons button:active{
+   background-color: #dbdbdb;
+
+}
+.chat__textarea{
+    position: absolute;
+    width: 49vw;
+
+    display: flex;
+    border-top: 1px solid rgb(219, 219, 219);
+}
+.chat__textarea__icons , .chat__textarea__mic__icon{
+    margin-top: 1%;
+    margin-left: 1%;
+    display: flex;
+    /* top:92%;
+    left:36%; */
+   
+}
+.chat__textarea__icons button, .chat__textarea__mic__icon button{
+    margin-right: 10%;
+    border : 0;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.chat__textarea__icons button:active , .chat__textarea__mic__icon button:active{
+    background-color: #dbdbdb;
+}
+.chat__textarea__text{
+    margin-top: 1%;
+    margin-left: 1%;
+    display: flex;
+}
+.chat__textarea__text input{
+    min-width: 40vw;
+    height: 3vh;
+    border: 0;
+    margin-left: 3%;
+    font-size: medium;
+}
+.chat__textarea__text input:focus{
+    outline: none;
+}
+
+
+.chat__textarea__text input::-webkit-input-placeholder {
+    opacity: 0.7; /*Change the opacity between 0 and 1*/
+}
+.chat__area{
+    position: relative;
+    background-image: url("https://i.imgur.com/TnNwdvV.jpg");
+    height: 83vh;
+    width: 100%;
+    flex:0.5;
+    box-shadow: rgba(88, 88, 88, 0.25) 0px 30px 60px -12px inset, rgba(70, 70, 70, 0.3) 0px 18px 36px -18px inset;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    
+   
+}
+ 
+::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+
+    
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(170, 170, 170);
+
+
+} 
+
+

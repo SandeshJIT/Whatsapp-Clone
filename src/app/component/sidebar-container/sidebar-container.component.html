@@ -1,0 +1,9 @@
+<section class="sidebar__content" *ngFor="let chat of chats" [routerLink]="['/room',chat.id]">
+    <img src="https://avatars.dicebear.com/api/human/sdsas.svg" alt="dp_friend" mat-card-avatar>
+    <div class="sidebar__content__room" >
+        <span class="sidebar__content__room__name">{{chat.name}}</span>
+        <span class="sidebar__content__room__last-msg">{{chat.messages}}</span>
+        
+    </div>
+    <span class="sidebar__content__room__time">{{chat.time}}</span>
+</section>

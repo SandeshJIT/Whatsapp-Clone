@@ -1,0 +1,35 @@
+<section class="sidebar">
+    <div class="header">
+        <img class="display__picutre" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="avatar" mat-card-avatar>
+        <div class="header__icons">
+            <button mat-icon-button>
+                <mat-icon>donut_large</mat-icon>
+            </button>
+            <button mat-icon-button>
+                <mat-icon> chat</mat-icon>
+            </button>
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item>Logout</button>
+                <button mat-menu-item>Settings</button>
+            </mat-menu>
+        </div>
+    </div>
+    <div class="sidebar__search">
+        <form #forms="ngForm" (ngSubmit)="onSearh(forms)">
+            <div class="sidebar__search__icons">
+                <button mat-icon-button>
+                    <mat-icon>search</mat-icon>
+                </button>
+            </div>
+            <input type="text" class="sidebar__search__input" name="search" ngModel placeholder="Search your chat here">
+            <button type="submit" style="display: none;">sas</button>
+        </form>
+        </div>
+    <div class="sidebar__content">
+
+    </div>
+    <app-sidebar-container></app-sidebar-container>
+</section>

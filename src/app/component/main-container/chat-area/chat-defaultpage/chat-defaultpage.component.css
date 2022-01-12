@@ -1,0 +1,28 @@
+.room-select{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.room-select img{
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    
+   
+}
+ 
+::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+
+    
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(170, 170, 170);
+
+
+} 
